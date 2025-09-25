@@ -17,7 +17,7 @@
     "commit": "commit",
     "dev": "turbo dev",
     "dev:ui": "turbo dev --filter=@repo/ui",
-    "dev:web": "turbo dev --filter=web",
+    "dev:web": "turbo dev --filter=web...",
     "knip": "knip",
     "lint": "turbo lint",
     "lint:fix": "turbo lint:fix",
