@@ -1,0 +1,1 @@
+# web :: Next.js frontend

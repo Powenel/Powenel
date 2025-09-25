@@ -1,0 +1,5 @@
+{
+  "(apps|packages)/**/*.{js,ts,jsx,tsx,md,mdx}": ["prettier --write"],
+  "*.json": ["prettier --write"],
+  "package.json": "sort-package-json"
+}

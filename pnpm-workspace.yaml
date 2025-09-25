@@ -1,0 +1,10 @@
+packages:
+  - apps/*
+  - packages/*
+  - packages/design-system/*
+
+onlyBuiltDependencies:
+  - '@tailwindcss/oxide'
+  - esbuild
+  - oxc-resolver
+  - sharp
