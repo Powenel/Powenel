@@ -1,5 +1,6 @@
 import js from "@eslint/js";
 import pluginNext from "@next/eslint-plugin-next";
+import reactThree from "@react-three/eslint-plugin";
 import pluginReact from "eslint-plugin-react";
 import pluginReactHooks from "eslint-plugin-react-hooks";
 import globals from "globals";
@@ -16,6 +17,7 @@ export const config = [
   ...baseConfig,
   js.configs.recommended,
   ...tseslint.configs.recommended,
+  ...reactThree.configs.recommended,
   {
     ...pluginReact.configs.flat.recommended,
     languageOptions: {

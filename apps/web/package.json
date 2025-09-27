@@ -13,11 +13,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.6",
+    "@react-three/fiber": "^9.3.0",
     "@repo/ui": "workspace:*",
     "motion": "^12.23.19",
     "next": "^15.5.2",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "three": "^0.180.0"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
@@ -26,6 +29,7 @@
     "@types/node": "^24.3.1",
     "@types/react": "^19.1.12",
     "@types/react-dom": "^19.1.9",
+    "@types/three": "^0.180.0",
     "eslint": "^9.35.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.13",
