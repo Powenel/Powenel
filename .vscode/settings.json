@@ -38,5 +38,11 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "tailwindCSS.classFunctions": ["cva", "cx"]
+  "[glsl]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tailwindCSS.classFunctions": ["cva", "cx"],
+  "webgl-glsl-editor.format.favorFloatingSuffix": false,
+  "webgl-glsl-editor.diagnostics": false,
+  "webgl-glsl-editor.codeInjection": true
 }

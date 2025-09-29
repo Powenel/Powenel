@@ -1,5 +1,5 @@
 {
-  "(apps|packages)/**/*.{js,ts,jsx,tsx,md,mdx}": ["prettier --write"],
+  "(apps|packages)/**/*.{js,ts,jsx,tsx,md,mdx,glsl,vert,frag}": ["prettier --write"],
   "*.json": ["prettier --write"],
   "package.json": "sort-package-json"
 }
